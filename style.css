@@ -2,8 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-nav{background-color: rgb(56, 112, 56);
-    
+nav{
+    background-color: rgb(56, 112, 56);
+    display: flex;
     text-align:center;
     position:relative;
     font-size: 30px;
