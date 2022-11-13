@@ -5,6 +5,7 @@
 nav{
     background-color: rgb(56, 112, 56);
     display: flex;
+    flex-direction: column;
     text-align:center;
     position:relative;
     font-size: 30px;
@@ -14,63 +15,65 @@ html {
     font-size: 2em;
     font-family: arial;
     background-image:url(images/Reflections.jpg);
-  background-size: cover;
-  background-attachment:fixed;
+    background-size: cover;
+    background-attachment:fixed;
 }
 
 
 
 .box1 {
-    background-color: rgba(127, 255, 212, 0.034);
-    text-align: left;
+    background-color: rgba(127, 255, 212, 0);
+    text-align: right;
     color: white;
     position: static;
     float: left;
+    
 }
 
 .box2 {
     background-color: rgba(0, 255, 255, 0.411);
-    text-align: right;
-    position: static;
+    text-align: left;
+    color: white;
+    
     float: right;
+    right: 20px;
+    
 }
 
 .box3 {
-    background-color: rgba(0, 255, 255, 0);
-    
-    text-align: right;
-    right: 20px;
+    background-color: rgba(127, 255, 212, 0);
+    text-align: left;
     float: right;
-
 }
 
 .box4 {
     
-    background-color: rgba(127, 255, 212, 0.445);
+    background-color: rgba(127, 255, 255, 0.411);
     text-align: left;
     
-    position: relative;
+    
     float: left;
     
 }
 
-
-    
-
 h1{
-    text-align: center;
+    
     color: black;
+    font-size: 30px;
+    word-wrap: normal;
 }
 h3{
     text-align: left;
-    
+    font-size: 25px;
+    color: black;
+    word-wrap: normal;
 }
 
 main {
-display: flex;
-flex-direction:column;
-height: auto;
-width: auto;
+    display: flex;
+    
+    height: auto;
+    width: auto
   
 }
 
@@ -90,12 +93,10 @@ p {
 .float{
     text-align: center;
     font-size: 25px;
-    color:white; 
+    color:white;
 }
-.travel{
-    width: auto;
-}
+
 .alligator{
     float:right;
-    position:static;
+    position:relative;
 }
